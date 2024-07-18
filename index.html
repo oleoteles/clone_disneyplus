@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clone Disney+</title>
+    <title>Rocky Balboa</title>
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
     <header class="header">
         <div class="header__container">
             <h1>
-                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+                <img class="header__logo" src="./dist/images/logo/rocky-logo.png" alt="Rocky">
             </h1>
             <ul class="header__links">
                 <li class="header__links__item">
-                    <a href="#" class="button button--secondary">Assine agora</a>
+                    <a href="#" class="button button--secondary">Assista agora</a>
                 </li>
                 <li class="header__links__item">
-                    <a href="#" class="button button--dark">Entrar</a>
+                    <a href="#" class="button button--dark">Alugar</a>
                 </li>
             </ul>
         </div>
@@ -25,142 +25,68 @@
     <section class="hero">
         <div class="hero__content">
             <div class="hero__content__branding">
-                <img src="./dist/images/disneyplus.svg" alt="Disney+">
+                <img src="./dist/images/logo/rocky-logo-5.png" width="500px" alt="Rocky Balboa">
             </div>
-            <h3 class="title-small">
-                As melhores histórias em um só lugar.
-            </h3>
-            <p>
-                <a href="#" class="link-text">Assinar o Disney+</a>
-                <br>
-                <span class="text">
-                    R$ 27,90/mês o R$ 279,90/ano à vista* 
-                </span>
-            </p>
-            <ul class="hero__content__combos">
-                <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+">
-                    <button class="button">Assine Agora</button>
-                    <span class="text">R$ 45,90/mês*</span>
-                </li>
-                <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+">
-                    <button class="button">Assine Agora</button>
-                    <span class="text">R$ 55,90/mês*</span>
-                </li>
-            </ul>
-            <p class="text-small">
-                "O preço pode variar caso a assinatura seja feita através de outras plataformas"
-            </p>
         </div>
     </section>
     <section class="shows">
         <nav class="shows__tabs">
-            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
-                Em breve
-            </button>
-            <button data-tab-button="populares" class="shows__tabs__button">
-                Mais populares
-            </button>
-            <button data-tab-button="star_plus" class="shows__tabs__button">
-                Mais no Star+
+            <button data-tab-button="filmes" class="shows__tabs__button shows__tabs__button--is-active">
+                Filmes
             </button>
         </nav>
         <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+                <img src="./dist/images/filmes/rocky_1.jpg" alt="Rocky 1">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/desencantada.jpg" alt="Desencantada">
+                <img src="./dist/images/filmes/rocky_2.jpg" alt="Rocky 2">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/lobisomem.jpg" alt="Lobisomen">
+                <img src="./dist/images/filmes/rocky_3.jpeg" alt="Rocky 3">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/sem_limites.jpg" alt="Sem Limites">
+                <img src="./dist/images/filmes/rocky_4.jpg" alt="Rocky 4">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="Santa Clauses">
+                <img src="./dist/images/filmes/rocky_5.jpg" alt="Rocky 5">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/willow.jpg" alt="Willow">
-            </li>
-        </ul>
-        <ul data-tab-id="populares" class="shows__list">
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/obi_wan.jpg" alt="Obi-Wan">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/bluey.jpg" alt="Bluey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/cavaleira_da_lua.jpg" alt="Cavaleiro da Lua">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/o_incrivel_dr_pol.jpg" alt="Dr. Pol">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/red.jpg" alt="Red">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/tudo_igual_sqn.jpg" alt="Tudo Igual">
-            </li>
-        </ul>
-        <ul data-tab-id="star_plus" class="shows__list">
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/libertadores.jpg" alt="Libertadotes">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/belair.jpg" alt="Belair">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/nba.jpg" alt="NBA">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/os_simpson.jpg" alt="Os Simpsons">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/premier_league.jpg" alt="Premier League">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/the_kardashians.jpg" alt="The Kardashians">
+                <img src="./dist/images/filmes/rocky_6.jpg" alt="Rocky 6">
             </li>
         </ul>
     </section>
     <section class="plans">
-        <h2 class="title-big">Escolha seu plano</h2>
+        <h2 class="title-big">Escolha seu combo</h2>
         <ul class="plans__list">
             <li class="plans__list__item">
-                <img src="./dist/images/logos/disneyplus_underline.png" alt="Disney+">
-                <strong class="title-small">R$ 27,90/mês*</strong>
+                <img src="./dist/images/combos/rocky-logo.png" alt="Disney+">
+                <strong class="title-small">R$ 15,90</strong>
                 <p class="text-big">
-                    No Disney+ você encontra as últimas estreias do cinema, originais e clássicos inesquecíveis.
+                    Escolha 1 dos filmes da franquia e conheça esse universo de vitória
                 </p>
-                <button class="button">Assine agora</button>
+                <button class="button">Compre agora</button>
             </li>
             <li class="plans__list__item">
-                <img src="./dist/images/logos/disney_star_plus_sm.png" alt="Disney+">
-                <strong class="title-small">R$ 45,90/mês*</strong>
+                <img src="./dist/images/combos/rocky-logo-2.jpg" alt="Disney+">
+                <strong class="title-small">R$ 35,90</strong>
                 <p class="text-big">
-                    Assine Disney+ e Star+ juntos. Economize e aproveite agora os dois serviços por um preço único.
+                    Escolha 3 filmes da franquia
                 </p>
-                <button class="button">Assine agora</button>
+                <button class="button">Compre agora</button>
             </li>
             <li class="plans__list__item">
-                <img src="./dist/images/logos/disney_star_plus_starzplay_underline.png" alt="Disney+">
-                <strong class="title-small">R$ 55,90/mês*</strong>
+                <img src="./dist/images/combos/rocky-logo-3.png" alt="Disney+">
+                <strong class="title-small">R$ 45,90</strong>
                 <p class="text-big">
-                    Disney+, Star+ e STARZPLAY em um plano especial. Assine agora os três serviços juntos.
+                    Tenha direito a todos os filmes da franquia!
                 </p>
-                <button class="button">Assine agora</button>
+                <button class="button">Compre agora</button>
             </li>
         </ul>
-        <p class="text-small">
-            *O preço pode variar caso a assinatura seja feita através de outras plataformas.
-        </p>
     </section>
     <section class="image-text-section">
-        <img src="./dist/images/tv_pc_tablet_celular.png" alt="Imagem com TV, Computador, Tablet e Celular">
+        <img src="./dist/images/dispositivos/rocky_correndo.jpg" alt="Imagem com TV, Computador, Tablet e Celular">
         <div class="image-text-section__text_container">
             <h2 class="title">Assista do seu jeito</h2>
             <p class="text-big">
@@ -168,22 +94,10 @@
             </p>
         </div>
     </section>
-    <section class="image-text-section image-text-section--image-full-width">
-        <picture>
-            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png" />
-            <img src="./dist/images/fundo_rei_leao.png" alt="Rei Leão">
-        </picture>
-        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
-            <h2 class="title">Baixe filmes e séries</h2>
-            <p class="text-big">
-                Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.
-        </div>
-    </section>
     <section class="available-devices">
         <h2 class="title">Disponivel nos seus dispositivos favoritos</h2>
         <ul class="available-devices__list">
             <li class="available-devices__list__item">
-                <img src="dist/images/dispositivos/computador.png" alt="Computador">
                 <h4 class="title-small">Computador</h4>
                 <ul class="text">
                     <li>Chrome OS</li>
@@ -192,7 +106,6 @@
                 </ul>
             </li>
             <li class="available-devices__list__item">
-                <img src="dist/images/dispositivos/tv.png" alt="TV">
                 <h4 class="title-small">TV</h4>
                 <ul class="text">
                     <li>Amazon Fire TV</li>
@@ -205,7 +118,6 @@
                 </ul>
             </li>
             <li class="available-devices__list__item">
-                <img src="dist/images/dispositivos/videogames.png" alt="Videogames">
                 <h4 class="title-small">Videogames</h4>
                 <ul class="text">
                     <li>PS4</li>
@@ -216,7 +128,6 @@
                 </ul>
             </li>
             <li class="available-devices__list__item">
-                <img src="dist/images/dispositivos/celular.png" alt="Celulares e tablets">
                 <h4 class="title-small">Celulares e tablets</h4>
                 <ul class="text">
                     <li>Tablets Amazon Fire</li>
@@ -231,7 +142,7 @@
         <ul class="faq__questions">
             <li class="faq__questions__item">
                 <div class="faq__questions__item__question" data-faq-question>
-                    O que está incluído no Disney+?
+                    Posso assistir quantas vezes quiser?
                 </div>
                 <div class="faq__questions__item__answer text-big">
                     A resposta da pergunta
@@ -239,7 +150,7 @@
             </li>
             <li class="faq__questions__item">
                 <div class="faq__questions__item__question" data-faq-question>
-                    Já tem o Disney+ ou o Star+ e quer o combo?
+                    Comprei o filme único. Posso comprar mais 2 depois tirando a diferença para o combo triplo?
                 </div>
                 <div class="faq__questions__item__answer text-big">
                     A resposta da pergunta
@@ -253,24 +164,16 @@
                     A resposta da pergunta
                 </div>
             </li>
-            <li class="faq__questions__item">
-                <div class="faq__questions__item__question" data-faq-question>
-                    Como posso ver conteúdo com classificação indicativa até 16 e 18??
-                </div>
-                <div class="faq__questions__item__answer text-big">
-                    A resposta da pergunta
-                </div>
-            </li>
         </ul>
     </section>
 
     <footer class="footer">
         <div class="footer__container">
-            <img class="footer__logo" src="dist/images/disneyplus.svg" alt="Disney+">
+            <img class="footer__logo" src="dist/images/logo/rocky-logo.png" alt="Rocky">
             <ul class="footer__links">
                 <li class="footer__links__item">
                     <div class="language-selector">
-                        <img src="./dist/images/icones/globe.svg" alt="Globo do mundo">
+                        <img src="./dist/images/ícones/globe.svg" alt="Globo do mundo">
                         <select>
                             <option>English</option>
                             <option selected>Português</option>
@@ -300,10 +203,10 @@
                 </li>
             </ul>
             <p class="text-small">
-                2022 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+                2024 Rocky Balboa MGM Company. Todos os direitos reservados. Serviço de venda de filmes. Conteúdo sujeito a disponibilidade.
             </p>
             <p class="text-small">
-                Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por The Walt Disney Company (Brasil)Ltda, World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP - CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20 
+                Rocky Balboa MGM Company é um serviço pago, baseado em compra e sujeito a termos e condições. O serviço Rocky Balboa MGM Company é comercializado por Stallion Company (Brasil)Ltda, World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP - CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20 
             </p>
         </div>
     </footer>
